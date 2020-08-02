@@ -14,11 +14,23 @@
     padding: 10px 15px;
     color: white;
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
 }
 
 .header-letter {
     margin-top: 47px;
     margin-left: 50px;
+}
+
+.header-letter p {
+    margin-top: 70px;
+    font-weight: lighter;
+    font-size: 50px;
+    width: 65%;
+}
+
+.header-letter span {
+    font-weight: bold;
 }
 
 .radial-background {
