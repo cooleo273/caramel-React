@@ -1,10 +1,13 @@
 import React from 'react'
 import "./styles.css"
 
+
 export default function Button() {
-    return (
+   
+        return (
         <div>
-            <button>I am everywhere button</button>
+            <button>Show elements</button>
         </div>
     )
+    
 }

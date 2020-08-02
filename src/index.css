@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: NunitoBlack;
+  src: url('assets/fonts/Nunito-Black.ttf');
+}
+
+@font-face {
+  font-family: NunitoSemiBold;
+  src: url('assets/fonts/Nunito-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url('assets/fonts/Nunito-Regular.ttf')
+}
+
+@font-face {
+  font-family: PlayfairBlack;
+  src: url('assets/fonts/PlayfairDisplay-Black.ttf');
+}
+
+@font-face {
+  font-family: Merriweather-light;
+  src: url('assets/fonts/Merriweather-Light.ttf');
+}
+@font-face {
+  font-family: Merriweather-bold;
+  src: url('assets/fonts/Merriweather-Bold.ttf');
+}
+
+
+@font-face {
+  font-family: Playfair;
+  src: url('assets/fonts/PlayfairDisplay-Regular.ttf')
+}
+
+
+h3, h5, h6, p, a, li {
+  font-family: 'Playfair', serif;
+}
