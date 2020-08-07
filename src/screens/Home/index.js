@@ -4,6 +4,7 @@ import "./styles.css"
 import Laptopcontainer from '../../components/Laptopcontainer';
 import Inbox from '../../components/Inbox';
 import Authors from "../../components/Authors";
+import Footer from '../../components/Footer';
 
 export default class Home extends Component {
     
@@ -16,6 +17,7 @@ export default class Home extends Component {
                 <Laptopcontainer />
                 <Inbox />
                 <Authors />
+                <Footer />
             </div>
         )
     }
