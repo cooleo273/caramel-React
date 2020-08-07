@@ -1,0 +1,50 @@
+.inbox-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px 0px;
+    background-image: linear-gradient(to right ,#e0eaf9,#e9e0f7,#fdebce);
+    height: 500px;
+}
+.inbox-image {
+    display: grid;
+    justify-content: center;
+    margin-top: 80px;
+    height: 500px;
+    width: 100%;
+    max-width: fit-content;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+}
+.inbox-image img{
+    width: 100%;
+}
+.inbox-text {
+    width: 270px;
+    font-family: Nunito;
+}
+.inbox-text h2 {
+    font-size: 55px;
+    font-family: Merriweather-light;
+    font-weight: lighter;
+    width: 556px;
+    line-height: 70px;
+}
+.phrase-1 {
+    color: #49414c;
+}
+.phrase-2 {
+    font-weight: bold;
+}
+.inbox-text p {
+    font-size: 13px;
+    font-family: Nunito;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
