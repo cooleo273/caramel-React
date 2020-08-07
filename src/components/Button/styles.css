@@ -1,12 +1,17 @@
 button {
-    background: black;
-    color: white;
-    border: 0px;
-    padding: 10px 20px;
-    border-radius: 3px;
+    background-image: linear-gradient(to right, #d494b1 20%, #a2abf6,#d494b1);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    width: 220px;
+    height: 50px;
+    font-size: 15px;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
-    transition: all 0.5s;
+    font-family: Playfair;
+    text-transform: capitalize;
+    border: none;
+    color: white;
+    grid-column: 2/3;
 }
 button:hover {
     box-shadow: rgb(0, 0, 0, 0.25) 2px 2px 5px;

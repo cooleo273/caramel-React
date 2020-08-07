@@ -1,0 +1,31 @@
+.letter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.letter h2 {
+    width:414px;
+    font-family: NunitoSemiBold;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.letter span{
+    font-family: Merriweather-bold;
+    font-weight: 600;
+}
+.laptop-container{
+    width: 100%;
+    display: grid;
+    
+}
+.laptop-container img{
+    object-fit: contain;
+    width: 100%;
+}
+.laptop{
+    width: 70%;
+    align-self: center;
+    justify-self: center;
+    margin-top:50px ;
+}

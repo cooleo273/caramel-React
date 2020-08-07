@@ -20,6 +20,7 @@
 .header-letter {
     margin-top: 47px;
     margin-left: 50px;
+    width: 65%;
 }
 
 .header-letter p {
@@ -56,4 +57,37 @@
     background-image: linear-gradient(to bottom left,orange,rgb(224, 85, 224),rgb(133, 133, 245),lightblue);
     height: 500px;
     opacity: 0.7;
+    width: 100%;
+}
+.container {
+    display: grid;
+    grid-template-rows: max-content max-content;
+}
+.moto {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: 1fr 1fr;
+}
+.moto p {
+    color: #949397;
+    width: 70%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.moto hr {
+    height: 0px;
+    width: 50px;
+    align-self: center;
+    margin-right: 20px;
+}
+.header-nav-container img{
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 86%;
+
+    
 }

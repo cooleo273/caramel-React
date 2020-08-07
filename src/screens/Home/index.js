@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Button from '../../components/Button'
 import Header from "../../components/Header";
 import "./styles.css"
+import Laptopcontainer from '../../components/Laptopcontainer';
 
 
 
@@ -13,7 +13,7 @@ export default class Home extends Component {
         return (
             <div>
                 <Header />
-                <Button/>
+                <Laptopcontainer />
                 
             </div>
         )
